@@ -1,0 +1,18 @@
+/* Written by Roger Korpics, Spring 2022 */
+
+body{
+    background-color: rgb(0, 0, 255);
+}
+
+.audio-player{
+    background-color: white;
+    border-radius: .5em;
+    bottom: 0;
+    height: 150px;
+    width: 100%;
+    max-width: 16em;
+    margin: 1em;
+    padding: 1em;
+    position: fixed;
+    right: 0;
+}
