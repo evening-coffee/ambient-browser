@@ -10,11 +10,21 @@
         <link rel="icon" sizes="any" type="image/svg+xml" href=""> <!-- Will need to come up with a logo later. -->
     </head>
     <body> 
+        <button id="nav-hamburger-button" onclick="hamburgerSlideOver();">
+            <div class="hamburger-cross"></div>
+            <div class="hamburger-cross"></div>
+            <div class="hamburger-cross"></div>
+                
+        </button>
+        <nav id="menu" style="display:none">
+            This is a menu for navigation.
+        </nav>
         <main>
-            <div class="audio-player">
+            <div class="audio-player"> <!-- The audio player will be the primary interface for controlling the audio in a scene. 
+                                            Basic features should include a pause/play button, and an audio slider. -->
                 Hello
             </div>
         </main>
-        <script src=""></script>
+        <script src="script.js"></script>
     </body>
 </html>

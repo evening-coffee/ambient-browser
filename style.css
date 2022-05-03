@@ -9,10 +9,32 @@ body{
     border-radius: .5em;
     bottom: 0;
     height: 150px;
-    width: 100%;
-    max-width: 16em;
     margin: 1em;
+    max-width: 16em;
     padding: 1em;
     position: fixed;
     right: 0;
+    width: 100%;
+}
+
+.hamburger-cross{
+    background-color: white;
+    border-radius: 1em;
+    height: .5em;
+    margin-bottom: .75em;
+    width: 4em;
+}
+
+#nav-hamburger-button{
+    background-color: transparent;
+    border: none;
+    margin-top: .25em;
+}
+
+#nav-hamburger-button:hover{
+    cursor: pointer;
+}
+
+#nav-hamburger-button:hover .hamburger-cross{
+    background-color: black;
 }
