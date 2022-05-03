@@ -1,2 +1,3 @@
-# ambient-browser
- A website that plays ambient audio tracks along with fitting background images.
+# Ambient Browser Project
+
+A web-based audio player that helps you set the mood.
