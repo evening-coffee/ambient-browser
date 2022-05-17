@@ -1,7 +1,7 @@
 <!-- File written by Roger Korpics, Spring 2022 -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="smooth-breathing">
     <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,20 +10,43 @@
         <link rel="icon" sizes="any" type="image/svg+xml" href=""> <!-- Will need to come up with a logo later. -->
     </head>
     <body> 
-        <button id="nav-hamburger-button" onclick="hamburgerSlideOver();">
-            <div class="hamburger-cross"></div>
-            <div class="hamburger-cross"></div>
-            <div class="hamburger-cross"></div>
-                
-        </button>
+        <header>
+            <button id="nav-hamburger-button" onclick="hamburgerSlideOver();">
+                <div class="hamburger-cross"></div>
+                <div class="hamburger-cross"></div>
+                <div class="hamburger-cross"></div>
+            </button>
+            <h1>Browser Ambience</h1>
+        </header>
         <nav id="menu" style="display:none">
-            This is a menu for navigation.
+            <button class="menu-choice">
+                <img src="palm-icon.png">
+                <p>Beachloop</p>
+            </button>
+            <button class="menu-choice">
+                <img src="https://via.placeholder.com/512">
+                Smooth Sunset
+            </button>
+            <button class="menu-choice">
+                <img src="https://via.placeholder.com/512">
+                Smooth Sunset
+            </button>
+            <button class="menu-choice">
+                <img src="https://via.placeholder.com/512">
+                Smooth Sunset
+            </button>
+            <button class="menu-choice">
+                <img src="https://via.placeholder.com/512">
+                Smooth Sunset
+            </button>
+            
         </nav>
-        <main>
-            <div class="audio-player"> <!-- The audio player will be the primary interface for controlling the audio in a scene. 
-                                            Basic features should include a pause/play button, and an audio slider. -->
-                Hello
-            </div>
+        <main class="wrapper">
+            <div class="content">
+                <h2>Welcome to<br>
+                    Browser Ambience</h2>
+                <p>To begin, open the menu and select a scene.</p>
+                </div>
         </main>
         <script src="script.js"></script>
     </body>
