@@ -14,10 +14,25 @@ html{
   color: rgb(36, 0, 83);
 }
 
+.beachloop{
+  margin
+  background-color: rgb(154, 220, 244);
+  animation-name: beachloop;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  color: rgb(30, 72, 155);
+}
+
 @keyframes breathing{
   0% {background-color: rgb(157, 125, 199);}
   60% {background-color: rgb(227, 196, 233);}
   100% {background-color: rgb(157, 125, 199);}
+}
+
+@keyframes beachloop{
+  0% {background-color: rgb(125, 173, 199);}
+  50% {background-color: rgb(100, 134, 185);}
+  100% {background-color: rgb(125, 173, 199);}
 }
 
 

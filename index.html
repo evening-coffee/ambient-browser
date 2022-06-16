@@ -1,7 +1,7 @@
 <!-- File written by Roger Korpics, Spring 2022 -->
 
 <!DOCTYPE html>
-<html lang="en" class="smooth-breathing">
+<html lang="en" class="smooth-breathing" id="root">
     <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,33 +19,65 @@
             <h1>Browser Ambience</h1>
         </header>
         <nav id="menu" style="display:none">
-            <button class="menu-choice">
+            <button class="menu-choice" id="beachloop" onclick="changeClass(beachloop);">
                 <img src="palm-icon.png">
                 <p>Beachloop</p>
             </button>
-            <button class="menu-choice">
+            <button class="menu-choice" onclick="console.log('Poolsuite FM was chosen.');">
                 <img src="https://via.placeholder.com/512">
-                Smooth Sunset
+                <p>Poolsuite FM</p>
+            </button>
+            <button class="menu-choice" onclick="console.log('Pink Lemonade was chosen.');">
+                <img src="https://via.placeholder.com/512">
+                Pink Lemonade
+            </button>
+            <button class="menu-choice" onclick="console.log('Poolwater was chosen.');">
+                <img src="https://via.placeholder.com/512">
+                Poolwater
+            </button>
+            <button class="menu-choice" onclick="console.log('Seashore Resort was chosen.');">
+                <img src="https://via.placeholder.com/512">
+                Seashore Resort
+            </button>
+            <button class="menu-choice" onclick="console.log('Beachloop was chosen.');">
+                <img src="https://via.placeholder.com/512">
+                Bubba Hubba
             </button>
             <button class="menu-choice">
                 <img src="https://via.placeholder.com/512">
-                Smooth Sunset
+                Peach Meringue
             </button>
             <button class="menu-choice">
                 <img src="https://via.placeholder.com/512">
-                Smooth Sunset
+                Green New Deal
             </button>
             <button class="menu-choice">
                 <img src="https://via.placeholder.com/512">
-                Smooth Sunset
+                Poolboy 3210
+            </button>
+            <button class="menu-choice" onclick="console.log('Beachloop was chosen.');">
+                <img src="https://via.placeholder.com/512">
+                Saved by the Shell
+            </button>
+            <button class="menu-choice">
+                <img src="https://via.placeholder.com/512">
+                Commodore 69
+            </button>
+            <button class="menu-choice">
+                <img src="https://via.placeholder.com/512">
+                PS-DOS
+            </button>
+            <button class="menu-choice">
+                <img src="https://via.placeholder.com/512">
+                24K
             </button>
             
         </nav>
-        <main class="wrapper">
+        <main class="wrapper" id="alpha">
             <div class="content">
-                <h2>Welcome to<br>
+                <h2 id="now-playing">Welcome to<br>
                     Browser Ambience</h2>
-                <p>To begin, open the menu and select a scene.</p>
+                <p id="now-playing-sub-header">To begin, open the menu and select a scene.</p>
                 </div>
         </main>
         <script src="script.js"></script>
